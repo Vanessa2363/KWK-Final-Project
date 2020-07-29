@@ -93,6 +93,22 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Recycleable"/>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="person.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="6S6-p1-wlr">
+                                <rect key="frame" x="335" y="778.5" width="59" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="circle.lefthalf.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="mlc-iE-vB0">
+                                <rect key="frame" x="222" y="779" width="79" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="magnifyingglass.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="R1T-lQ-5dg">
+                                <rect key="frame" x="76" y="742.5" width="152" height="126"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="chart.pie" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="nab-cT-NzN">
+                                <rect key="frame" x="10" y="776" width="85" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="RRw-nm-dws"/>
@@ -102,8 +118,52 @@
             </objects>
             <point key="canvasLocation" x="889.85507246376824" y="126.5625"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="DZl-Hg-xaA">
+            <objects>
+                <viewController id="42a-ID-AW3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1O7-G5-0Dk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="person.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="iF8-yw-eui">
+                                <rect key="frame" x="350" y="780.5" width="64" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="circle.lefthalf.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="eRN-dj-dEf">
+                                <rect key="frame" x="249" y="785" width="79" height="83"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="magnifyingglass.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="w6R-2N-1dt">
+                                <rect key="frame" x="122" y="756.5" width="119" height="117"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="chart.pie" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="FXb-9m-H2U">
+                                <rect key="frame" x="29" y="789.5" width="85" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Alternatives" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Ei-Ol-Bap">
+                                <rect key="frame" x="97" y="75" width="221" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="44"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="fnZ-fR-YnY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GnW-ku-CTB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1657.9710144927537" y="128.57142857142856"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Earth Logo" width="224" height="228"/>
+        <image name="chart.pie" catalog="system" width="128" height="121"/>
+        <image name="circle.lefthalf.fill" catalog="system" width="128" height="121"/>
+        <image name="magnifyingglass.circle" catalog="system" width="128" height="121"/>
+        <image name="person.circle" catalog="system" width="128" height="121"/>
     </resources>
 </document>
