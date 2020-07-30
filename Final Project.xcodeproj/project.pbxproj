@@ -16,6 +16,7 @@
 		268CCFA924D0C1B800AAF67A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 268CCFA724D0C1B800AAF67A /* LaunchScreen.storyboard */; };
 		268CCFB424D0C1B800AAF67A /* Final_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268CCFB324D0C1B800AAF67A /* Final_ProjectTests.swift */; };
 		268CCFBF24D0C1B800AAF67A /* Final_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268CCFBE24D0C1B800AAF67A /* Final_ProjectUITests.swift */; };
+		26FCC66924D2B399004DC614 /* RecycleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FCC66824D2B399004DC614 /* RecycleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		268CCFBA24D0C1B800AAF67A /* Final ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Final ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		268CCFBE24D0C1B800AAF67A /* Final_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_ProjectUITests.swift; sourceTree = "<group>"; };
 		268CCFC024D0C1B800AAF67A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26FCC66824D2B399004DC614 /* RecycleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecycleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				268CCF9924D0C1B400AAF67A /* AppDelegate.swift */,
 				268CCF9B24D0C1B400AAF67A /* SceneDelegate.swift */,
 				268CCF9D24D0C1B400AAF67A /* ViewController.swift */,
+				26FCC66824D2B399004DC614 /* RecycleViewController.swift */,
 				268CCF9F24D0C1B400AAF67A /* Main.storyboard */,
 				268CCFA524D0C1B800AAF67A /* Assets.xcassets */,
 				268CCFA724D0C1B800AAF67A /* LaunchScreen.storyboard */,
@@ -264,6 +267,7 @@
 			files = (
 				268CCF9E24D0C1B400AAF67A /* ViewController.swift in Sources */,
 				268CCF9A24D0C1B400AAF67A /* AppDelegate.swift in Sources */,
+				26FCC66924D2B399004DC614 /* RecycleViewController.swift in Sources */,
 				268CCFA424D0C1B400AAF67A /* Final_Project.xcdatamodeld in Sources */,
 				268CCF9C24D0C1B400AAF67A /* SceneDelegate.swift in Sources */,
 			);
