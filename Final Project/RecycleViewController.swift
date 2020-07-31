@@ -79,7 +79,7 @@ class RecycleViewController: UIViewController {
             UIView.transition(with: nonrecyclableFront3, duration: 0.3, options: .transitionFlipFromBottom, animations: nil, completion: nil)
         } else {
             PVC = true
-            let image = UIImage(named: "Non back 1")
+            let image = UIImage(named: "Non Back 1")
             nonrecyclableFront3.setImage(image, for: .normal)
             UIView.transition(with: nonrecyclableFront3, duration: 0.3, options: .transitionFlipFromTop, animations: nil, completion: nil)
         }
@@ -137,7 +137,8 @@ class RecycleViewController: UIViewController {
             LDPE = false
             let image = UIImage(named: "Call 2")
             callFirst5.setImage(image, for: .normal)
-            UIView.transition(with: callFirst5, duration: 0.3, options: .transitionFlipFromTop, animations: nil, completion: nil)
+            UIView.transition(with: callFirst5, duration: 0.3, options: .transitionFlipFromBottom
+                , animations: nil, completion: nil)
         } else {
             LDPE = true
             let image = UIImage(named: "Call Back 2")
